@@ -1,3 +1,4 @@
+import { Link as LinkR } from "react-router-dom";
 import styled from "styled-components";
 
 export const FooterContainer = styled.div`
@@ -19,10 +20,9 @@ export const FooterWrapper = styled.footer`
   color: ${({ theme }) => theme.text_primary};
 `;
 
-export const Logo = styled.h1`
+export const Logo = styled.div`
   font-weight: 600;
   font-size: 20px;
-  color: ${({ theme }) => theme.primary};
 `;
 
 export const Nav = styled.nav`
@@ -33,6 +33,7 @@ export const Nav = styled.nav`
   flex-direction: row;
   gap: 2rem;
   justify-content: center;
+
   @media (max-width: 768px) {
     flex-wrap: wrap;
     gap: 1rem;
@@ -47,9 +48,11 @@ export const NavLink = styled.a`
   text-decoration: none;
   font-size: 1.2rem;
   transition: color 0.2s ease-in-out;
+
   &:hover {
     color: ${({ theme }) => theme.primary};
   }
+
   @media (max-width: 768px) {
     font-size: 1rem;
   }
@@ -66,6 +69,7 @@ export const SocialMediaIcon = styled.a`
   font-size: 1.5rem;
   color: ${({ theme }) => theme.text_primary};
   transition: color 0.2s ease-in-out;
+
   &:hover {
     color: ${({ theme }) => theme.primary};
   }
@@ -79,5 +83,21 @@ export const Copyright = styled.p`
 
   @media (max-width: 640px) {
     font-size: 0.8rem;
+  }
+`;
+
+export const NavLogo = styled(LinkR)`
+  width: 80%;
+  padding: 0 6px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
+  color: ${({ theme }) => theme.primary};
+
+  @media screen and (max-width: 640px) {
+    padding: 0 0px;
   }
 `;

@@ -2,6 +2,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import LocalFireDepartmentIcon from "@mui/icons-material/LocalFireDepartment";
 import { bio } from "../../data/constants";
 import {
   Copyright,
@@ -12,6 +13,7 @@ import {
   NavLink,
   SocialMediaIcon,
   SocialMediaIcons,
+  NavLogo,
 } from "./FooterStyle";
 
 function Footer() {
@@ -20,7 +22,10 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Paulo Araújo</Logo>
+        <NavLogo>
+          <LocalFireDepartmentIcon fontSize="large" />
+          <Logo>Paulo Araújo</Logo>
+        </NavLogo>
         <Nav>
           <NavLink href="#home">Inicio</NavLink>
           <NavLink href="#about">Sobre</NavLink>

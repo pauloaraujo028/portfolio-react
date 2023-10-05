@@ -17,7 +17,7 @@ export const Container = styled.div`
 `;
 
 export const Wrapper = styled.div`
-  max-width: 500px;
+  max-width: 100%;
   width: 100%;
   border-radius: 16px;
   margin: 10px;
@@ -31,7 +31,13 @@ export const Wrapper = styled.div`
   position: relative;
 `;
 
-const Title = styled.div`
+const Box = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+`;
+
+const BoxTitle = styled.div`
   display: flex;
   align-items: center;
   gap: 10px;
@@ -42,11 +48,30 @@ const Title = styled.div`
   }
 `;
 
+const Title = styled.p`
+  font-size: 20px;
+
+  @media screen and (max-width: 640px) {
+    font-size: 18px;
+  }
+`;
+
+const SubTitle = styled.p`
+  font-size: 16px;
+
+  @media screen and (max-width: 640px) {
+    font-size: 14px;
+  }
+`;
+
 export const ButtonGroup = styled.div`
   display: flex;
-  /* justify-content: flex-end; */
   margin: 12px 0px;
   gap: 12px;
+
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+  }
 `;
 
 export const Button = styled.a`
@@ -95,22 +120,22 @@ const CookiesModal = ({ open, handleClose }) => {
       <Fade in={open}>
         <Container>
           <Wrapper>
-            <div style={{ width: 400 }}>
-              <Title>
+            <Box>
+              <BoxTitle>
                 <CookieIcon color="warning" />
-                <h2 id="transition-modal-title">Esse site usa cookies</h2>
-              </Title>
-              <p id="transition-modal-description">
+                <Title id="transition-modal-title">Esse site usa cookies</Title>
+              </BoxTitle>
+              <SubTitle id="transition-modal-description">
                 Este site utiliza cookies para personalizar o conteúdo e
                 analisar o tráfego para lhe oferecer uma melhor experiência.
-              </p>
+              </SubTitle>
               <ButtonGroup>
                 <Button onClick={handleClose} dull>
                   Recusar
                 </Button>
                 <Button onClick={handleAccept}>Aceitar</Button>
               </ButtonGroup>
-            </div>
+            </Box>
           </Wrapper>
         </Container>
       </Fade>

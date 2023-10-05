@@ -86,6 +86,7 @@ export const SkillList = styled.div`
   flex-wrap: wrap;
   gap: 12px;
   margin-bottom: 20px;
+  cursor: context-menu;
 `;
 
 export const SkillItem = styled.div`

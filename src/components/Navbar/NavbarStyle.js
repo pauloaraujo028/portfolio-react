@@ -35,6 +35,7 @@ export const NavLogo = styled(LinkR)`
   cursor: pointer;
   text-decoration: none;
   align-items: center;
+  color: ${({ theme }) => theme.primary};
 
   @media screen and (max-width: 640px) {
     padding: 0 0px;

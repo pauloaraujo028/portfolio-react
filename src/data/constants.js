@@ -24,50 +24,60 @@ export const skills = [
         name: "React Js",
         image:
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        alt: "Icone da tecnologia ReactJs",
       },
       {
         name: "Redux",
         image:
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+        alt: "Icone da tecnologia Redux",
       },
       {
         name: "Next Js",
         image:
           "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
+        alt: "Icone da tecnologia NextJs",
       },
       {
         name: "HTML",
         image:
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        alt: "Icone da tecnologia HTML5",
       },
       {
         name: "CSS",
         image:
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+        alt: "Icone da tecnologia CSS3",
       },
       {
         name: "JavaScript",
         image:
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+        alt: "Icone da tecnologia Javascript",
       },
       {
         name: "Bootstrap",
         image:
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+        alt: "Icone da tecnologia Bootstrap",
       },
       {
         name: "Material UI",
         image:
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-plain.svg",
+        alt: "Icone da tecnologia Material UI",
       },
       {
         name: "Laravel",
         image: "https://cdn.simpleicons.org/laravel/FF2D20",
+        alt: "Icone da tecnologia Laravel",
       },
       {
         name: "Tailwind CSS",
         image:
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+        alt: "Icone da tecnologia Tailwind CSS",
       },
     ],
   },
@@ -78,35 +88,42 @@ export const skills = [
         name: "PHP",
         image:
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+        alt: "Icone da tecnologia PHP",
       },
       {
         name: "Node Js",
         image: "https://nodejs.org/static/images/logo.svg",
+        alt: "Icone da tecnologia NodeJs",
       },
       {
         name: "Java",
         image:
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+        alt: "Icone da tecnologia Java",
       },
       {
         name: "Python",
         image:
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+        alt: "Icone da tecnologia Python",
       },
       {
         name: "MySQL",
         image:
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg",
+        alt: "Icone da tecnologia MySQL",
       },
       {
         name: "Postgresql",
         image:
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+        alt: "Icone da tecnologia PostgreSQL",
       },
       {
         name: "SQLite",
         image:
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg",
+        alt: "Icone da tecnologia SQLite",
       },
     ],
   },
@@ -127,37 +144,45 @@ export const skills = [
         name: "Git",
         image:
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+        alt: "Icone da tecnologia GIT",
       },
       {
         name: "GitHub",
         image: "https://skillicons.dev/icons?i=github",
+        alt: "Icone da tecnologia GitHub",
       },
       {
         name: "VS Code",
         image: "https://cdn.simpleicons.org/visualstudiocode/007ACC",
+        alt: "Icone da tecnologia VsCode",
       },
       {
         name: "Postman",
         image: "https://cdn.simpleicons.org/postman/FF6C37",
+        alt: "Icone da tecnologia Postman",
       },
       {
         name: "Figma",
         image:
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+        alt: "Icone da tecnologia Figma",
       },
       {
         name: "Composer",
         image:
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/composer/composer-original.svg",
+        alt: "Icone da tecnologia Composer",
       },
       {
         name: "Wordpress",
         image: "https://cdn.simpleicons.org/wordpress/21759B",
+        alt: "Icone da tecnologia Wordpress",
       },
       {
         name: "Bitbucket",
         image:
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bitbucket/bitbucket-original.svg",
+        alt: "Icone da tecnologia Bitbucket",
       },
     ],
   },
@@ -255,6 +280,7 @@ export const projects = [
       "Sistema no estilo dashboard que apresenta diversas funcionalidades, incluindo uma página de pesquisa de clima que utiliza as APIs do OpenWeatherMap (https://openweathermap.org) e do FlagsAPI (https://flagsapi.com). Nesta página, você pode pesquisar o clima de qualquer local e ver a bandeira correspondente ao local pesquisado. Além disso, uma imagem aleatória do local da pesquisa é exibida, tornando a experiência mais visual e envolvente, graças à API do Source.unsplash (https://source.unsplash.com). Este sistema também inclui uma página de busca de endereços por nome, utilizando a API do Nominatim OpenStreetMap (https://nominatim.openstreetmap.org). Com essa funcionalidade, é possível obter informações detalhadas sobre um endereço, incluindo Nome/Logradouro, CEP, Bairro e Cidade/UF. Os resultados são apresentados em uma lista para facilitar a escolha da opção desejada. Além disso, este sistema oferece uma página de formulário de contato, é um projeto excelente, utilizável em todos os dispositivos e foi construído com NEXTJS & TAILWIND CSS. Espero que goste.",
     image:
       "https://user-images.githubusercontent.com/105018299/265334024-ce27c37d-f1a6-4460-a950-6565fdb3251d.png",
+    alt: "Imagem do projeto de Dashboard",
     tags: [
       "Next Js",
       "Typescript",
@@ -277,6 +303,7 @@ export const projects = [
       "Neste projeto prático, foi criado um site de comércio eletrônico full stack usando reactjs, redux toolkit e firebase v9 com UI e UX modernos. Design responsivo, com a utilização das ferramentas do react-redux, usando a autenticação do firebase firestore, firebase storage, como usar useState hooks, useEffect hooks, useRef hooks, biblioteca remix icon e muito mais.",
     image:
       "https://user-images.githubusercontent.com/105018299/196257791-352301de-011f-4e1c-b268-8dadf587fa9b.jpg",
+    alt: "Imagem do projeto de uma loja virtual",
     tags: ["React Js", "Redux", "CSS3", "Firebase"],
     category: "web app",
     github: "https://github.com/pauloaraujo028/eshop-react-ecommerce",
@@ -291,6 +318,7 @@ export const projects = [
       "Projeto de Loja de aluguel de imóveis, com página de detalhes, login e register, filtro e pesquisa de imóveis, useState, useEffect, useRef entre outras funcionalidades, possui design responsivo, UI e UX, utilizável em todos os dispositivos. Todas funcionalidades estão funcionando perfeitamente, Espero que goste.",
     image:
       "https://user-images.githubusercontent.com/105018299/209612911-6e7337dc-371f-4508-aa86-d33ed3bd38c1.png",
+    alt: "Imagem do projeto de site de imoveis",
     tags: ["React Js", "Tailwind CSS", "React Router"],
     category: "web app",
     github: "https://github.com/pauloaraujo028/real-estate-react",
@@ -305,6 +333,7 @@ export const projects = [
       "Este projeto foi feito para demonstrar conhecimento trabalhando em React JS e acessar endpoints de uma API. Este aplicativo foi hospedado no Firebase, suporta autenticação de usuário. Os usuários podem criar uma nova conta usando seus endereços de e-mail e pode entrar para salvar moedas para um usuário específico. Isso é possível criando um armazenamento em nuvem, com banco de dados no momento do registro do usuário. Outra característica deste projeto é o React Hooks, Context, React-Router-Dom, useParams, Light/Dark Theme, Tailwind, Authentication, Firebase, API. Este aplicativo foi construído usando a API Coin Gecko, usando manipulações de dados da API, onde o usuário tem visualização das cotações de criptomoedas em tempo real.",
     image:
       "https://user-images.githubusercontent.com/105018299/192914239-c185c43c-0e5e-488b-9ba6-2925dc8f4cfd.jpg",
+    alt: "Imagem do projeto de site para pesquisar criptmoedas",
     tags: [
       "React Js",
       "Redux",
@@ -326,6 +355,7 @@ export const projects = [
       "Projeto de Website de delivery App com a parte de design da página principal utilizável em todos os dispositivos. Todas funcionalidades estão funcionando perfeitamente.",
     image:
       "https://user-images.githubusercontent.com/105018299/198390655-a34411b3-c1c4-4122-8840-98db3e6259c3.jpg",
+    alt: "Imagem do projeto de site para restaurante",
     tags: ["React Js", "Tailwind CSS"],
     category: "web app",
     github: "https://github.com/pauloaraujo028/best-food-react",
@@ -340,6 +370,7 @@ export const projects = [
       "Esse projeto foi construído pensando tanto no aprendizado quanto para uso próprio pois no momento estava precisando fazer o controle dos meus gastos pessoais, o projeto atual está configurado para localStorage o que deixa todo o salvamento de informações no navegador.",
     image:
       "https://user-images.githubusercontent.com/105018299/193169115-50b45594-9a61-4f4e-9743-c848ae23fee0.png",
+    alt: "Imagem do projeto de site para controle financeiro",
     tags: ["React Js", "Styled Components", "localStorage"],
     category: "web app",
     github: "https://github.com/pauloaraujo028/controle-financeiro",
@@ -354,6 +385,7 @@ export const projects = [
       "O projeto consiste em um sistema de cadastro de produtos, onde é possível visualizar, cadastrar, editar e excluir produtos. Além disso, o sistema conta com recursos como busca de produtos e feedbacks visuais ao realizar operações como cadastro e exclusão. A implementação do projeto envolveu a criação de rotas, controllers, models e views no Laravel, além da utilização de tecnologias como Bootstrap, jQuery e o plugin SweetAlert2 para melhorar a interface e a experiência do usuário. Com este projeto, foi possível demonstrar habilidades básicas na criação de pequenas funcionalidades, bem como na edição de projetos já existentes de um sistema web utilizando PHP e Laravel, além de práticas comuns de programação, como a utilização de bibliotecas e frameworks, organização de código e interação com banco de dados. Foi criado um exemplo de um controlador de API simples para gerenciar o recurso de 'produto' com as operações CRUD (criar, ler, atualizar e excluir) no banco de dados. As funções index(), store(), show(), update() e destroy() lidam com as diferentes operações e respondem com um JSON.",
     image:
       "https://user-images.githubusercontent.com/105018299/228914593-170a91f1-bee4-48a0-8b4e-e734d14089f1.png",
+    alt: "Imagem do projeto de sistema de cadastro de produtos",
     tags: ["PHP", "Laravel", "MySQL", "Bootstrap", "jQuery"],
     category: "backend app",
     github: "https://github.com/pauloaraujo028/crud-app",
@@ -368,6 +400,8 @@ export const projects = [
       "O projeto é um sistema web que oferece funcionalidades de autenticação, permitindo que os usuários se registrem e acessem suas contas. Após o registro, os usuários podem fazer login e acessar um dashboard personalizado. Os usuários podem se registrar fornecendo seu nome, e-mail e senha. Após o registro bem-sucedido, são direcionados para a página de login. Os usuários podem fazer login utilizando suas credenciais previamente registradas. Após o login, os usuários são redirecionados para um dashboard exclusivo. O dashboard contém uma barra de navegação com opções para atualizar o perfil e fazer logout. No dashboard, os usuários têm a opção de completar o cadastro fornecendo informações adicionais, como CEP, endereço, entre outros detalhes. As informações do endereço são automaticamente preenchidas a partir da API de CEP do Brasil. Os usuários também podem fazer o upload de uma foto para o perfil. No dashboard, os usuários podem fazer logout da sua conta, encerrando a sessão. Este projeto visa demonstrar habilidades em desenvolvimento web, autenticação de usuários, integração com APIs e gestão de dados em um banco de dados. Ao seguir as melhores práticas de desenvolvimento, o objetivo é criar uma aplicação funcional, intuitiva e segura para os usuários.",
     image:
       "https://user-images.githubusercontent.com/105018299/266880350-275fedb2-d317-41c8-b065-bb3228a15a10.png",
+    alt: "Imagem do projeto de sistema de login, registro e  atualização de dados do usuário",
+
     tags: ["PHP", "Laravel", "MySQL", "Bootstrap", "Tailwind CSS", "API"],
     category: "backend app",
     github: "https://github.com/pauloaraujo028/desafio-laravel",

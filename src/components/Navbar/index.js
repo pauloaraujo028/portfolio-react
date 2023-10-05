@@ -26,9 +26,9 @@ const Navbar = ({ darkMode, setDarkMode }) => {
   return (
     <Nav>
       <NavContainer>
-        <NavLogo to="/">
+        <NavLogo>
           <LocalFireDepartmentIcon fontSize="large" />
-          <Span>Paulo Araújo</Span>
+          <Span href="/">Paulo Araújo</Span>
         </NavLogo>
         <MobileIcon>
           <FaBars
