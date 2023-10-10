@@ -39,7 +39,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
         </MobileIcon>
         <NavItems>
           <NavLink href="/">Inicio</NavLink>
-          <NavLink href="#about">Sobre</NavLink>
+          {/* <NavLink href="#about">Sobre</NavLink> */}
           <NavLink href="#skills">Habilidades</NavLink>
           <NavLink href="#experience">Experiência</NavLink>
           <NavLink href="#projects">Projetos</NavLink>
