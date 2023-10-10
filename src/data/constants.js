@@ -7,7 +7,7 @@ export const bio = {
     "Freelancer",
   ],
   description:
-    "Sou um desenvolvedor front-end Jr me especializando em construir (e ocasionalmente projetar) experiências digitais excepcionais. Atualmente, estou focado na construção de aplicativos web responsivos enquanto aprendo tecnologias back-end.",
+    "Sou um desenvolvedor Jr me especializando em construir (e ocasionalmente projetar) experiências digitais excepcionais. Atualmente, estou focado na construção de aplicativos web responsivos enquanto aprendo tecnologias back-end.",
   resume:
     "https://drive.google.com/file/d/1VSUQcbpFpXYcPIBiMOrnUP_yysyFrsOc/view?usp=sharing",
   github: "https://github.com/pauloaraujo028",
@@ -406,6 +406,22 @@ export const projects = [
     category: "backend app",
     github: "https://github.com/pauloaraujo028/desafio-laravel",
     webapp: "https://github.com/pauloaraujo028/desafio-laravel",
+    member: [],
+  },
+  {
+    id: 7,
+    title: "Digital Book Vue + Laravel",
+    date: "",
+    description:
+      "O projeto é uma aplicação para gerenciar aluguéis de livros em uma biblioteca. Ele oferece diversas funcionalidades para facilitar o processo de empréstimo e devolução de livros, além de manter um registro organizado das transações. Cadastro de Livros: Permite adicionar novos livros ao catálogo da biblioteca. Cadastro de Usuários: Permite registrar novos usuários, incluindo nome e CPF, garantindo que cada CPF seja único. Aluguel de Livros: Possibilita o empréstimo de livros para usuários cadastrados, com validações de disponibilidade e datas válidas. Devolução de Livros: Permite que os usuários devolvam os livros alugados. Tecnologias Utilizadas: Laravel: Backend do projeto, um framework PHP robusto e muito utilizado, que oferece ferramentas poderosas para desenvolver aplicações web. Vue.js: Frontend do projeto, um framework progressivo de JavaScript que facilita a criação de interfaces interativas. MySQL: Banco de dados utilizado para armazenar informações sobre livros, usuários e transações de aluguel. Inertia.js: Permite construir aplicativos full-stack sem a necessidade de API RESTful. Tailwind CSS: Framework de CSS que agiliza o desenvolvimento, proporcionando um estilo visual moderno e responsivo.",
+    image:
+      "https://user-images.githubusercontent.com/105018299/273621558-1bdb8c12-276d-497b-87d7-20907559f27f.png",
+    alt: "Imagem do projeto biblioteca com as tecnologias vue e laravel",
+
+    tags: ["Vue", "Laravel", "MySQL", "PHP", "Tailwind CSS", "InertiaJs"],
+    category: "backend app",
+    github: "https://github.com/pauloaraujo028/biblioteca-laravel-vue",
+    webapp: "https://github.com/pauloaraujo028/biblioteca-laravel-vue",
     member: [],
   },
 ];
