@@ -27,7 +27,7 @@ function Footer() {
           <Logo>Paulo Araújo</Logo>
         </NavLogo>
         <Nav>
-          <NavLink href="#home">Inicio</NavLink>
+          <NavLink href="/">Inicio</NavLink>
           {/* <NavLink href="#about">Sobre</NavLink> */}
           <NavLink href="#skills">Habilidades</NavLink>
           <NavLink href="#experience">Experiência</NavLink>
