@@ -1,23 +1,23 @@
-import React, { useState } from "react";
-import { useTheme } from "styled-components";
+import DarkModeIcon from "@mui/icons-material/DarkMode";
+import LightModeIcon from "@mui/icons-material/LightMode";
 import LocalFireDepartmentIcon from "@mui/icons-material/LocalFireDepartment";
+import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
+import { useTheme } from "styled-components";
 import {
-  Nav,
-  NavContainer,
-  NavLogo,
-  Span,
+  ButtonContainer,
+  GithubButton,
   MobileIcon,
   MobileMenu,
   MobileMenuLinks,
-  NavLink,
+  Nav,
+  NavContainer,
   NavItems,
-  ButtonContainer,
-  GithubButton,
+  NavLink,
+  NavLogo,
+  Span,
   ThemeButton,
 } from "./NavbarStyle";
-import LightModeIcon from "@mui/icons-material/LightMode";
-import DarkModeIcon from "@mui/icons-material/DarkMode";
 
 const Navbar = ({ darkMode, setDarkMode }) => {
   const [open, setOpen] = useState(false);
@@ -38,7 +38,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
           />
         </MobileIcon>
         <NavItems>
-          <NavLink href="/">Inicio</NavLink>
+          <NavLink href="#home">Inicio</NavLink>
           {/* <NavLink href="#about">Sobre</NavLink> */}
           <NavLink href="#skills">Habilidades</NavLink>
           <NavLink href="#experience">Experiência</NavLink>
@@ -70,12 +70,12 @@ const Navbar = ({ darkMode, setDarkMode }) => {
       </NavContainer>
       {open && (
         <MobileMenu open={open}>
-          <MobileMenuLinks href="/" onClick={() => setOpen(!open)}>
+          <MobileMenuLinks href="#home" onClick={() => setOpen(!open)}>
             Inicio
           </MobileMenuLinks>
-          <MobileMenuLinks href="#about" onClick={() => setOpen(!open)}>
+          {/* <MobileMenuLinks href="#about" onClick={() => setOpen(!open)}>
             Sobre
-          </MobileMenuLinks>
+          </MobileMenuLinks> */}
           <MobileMenuLinks href="#skills" onClick={() => setOpen(!open)}>
             Habilidades
           </MobileMenuLinks>
@@ -88,34 +88,33 @@ const Navbar = ({ darkMode, setDarkMode }) => {
           <MobileMenuLinks href="#contact" onClick={() => setOpen(!open)}>
             Contato
           </MobileMenuLinks>
-          {/* <MobileMenuLinks href="#about" onClick={() => setOpen(!open)}>
-            Education
-          </MobileMenuLinks> */}
-          <ThemeButton
-            onClick={() => {
-              const newMode = !darkMode;
-              setDarkMode(newMode);
-              localStorage.setItem("theme", newMode ? "dark" : "light");
-            }}
-          >
-            {darkMode ? (
-              <LightModeIcon color="warning" fontSize="large" />
-            ) : (
-              <DarkModeIcon color="primary" fontSize="large" />
-            )}
-          </ThemeButton>
-          <GithubButton
-            style={{
-              padding: "10px 16px",
-              background: `${theme.primary}`,
-              color: "white",
-              width: "max-content",
-            }}
-            href="https://github.com/pauloaraujo028"
-            target="_blank"
-          >
-            Github Profile
-          </GithubButton>
+          <div style={{ display: "flex", paddingTop: "10px", gap: "20px" }}>
+            <ThemeButton
+              onClick={() => {
+                const newMode = !darkMode;
+                setDarkMode(newMode);
+                localStorage.setItem("theme", newMode ? "dark" : "light");
+              }}
+            >
+              {darkMode ? (
+                <LightModeIcon color="warning" fontSize="large" />
+              ) : (
+                <DarkModeIcon color="primary" fontSize="large" />
+              )}
+            </ThemeButton>
+            <GithubButton
+              style={{
+                padding: "10px 16px",
+                background: `${theme.primary}`,
+                color: "white",
+                width: "max-content",
+              }}
+              href="https://github.com/pauloaraujo028"
+              target="_blank"
+            >
+              Github Profile
+            </GithubButton>
+          </div>
         </MobileMenu>
       )}
     </Nav>

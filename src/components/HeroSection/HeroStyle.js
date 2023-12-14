@@ -20,7 +20,7 @@ export const HeroContainer = styled.div`
 export const HeroBg = styled.div`
   position: absolute;
   display: flex;
-  justify-content: end;
+  justify-content: center;
   top: 0;
   right: 0;
   bottom: 0;

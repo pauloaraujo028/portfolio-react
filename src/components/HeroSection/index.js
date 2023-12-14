@@ -1,30 +1,30 @@
+import EmailIcon from "@mui/icons-material/Email";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import React from "react";
-import HeroBgAnimation from "../HeroBgAnimation";
-import {
-  HeroContainer,
-  HeroBg,
-  HeroLeftContainer,
-  Img,
-  HeroRightContainer,
-  HeroInnerContainer,
-  TextLoop,
-  Title,
-  Span,
-  SubTitle,
-  SocialMediaIcons,
-  SocialMediaIcon,
-  ResumeButton,
-} from "./HeroStyle";
 import Typewriter from "typewriter-effect";
 import { bio } from "../../data/constants";
-import EmailIcon from "@mui/icons-material/Email";
-import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import GitHubIcon from "@mui/icons-material/GitHub";
+import HeroBgAnimation from "../HeroBgAnimation";
+import {
+  HeroBg,
+  HeroContainer,
+  HeroInnerContainer,
+  HeroLeftContainer,
+  HeroRightContainer,
+  Img,
+  ResumeButton,
+  SocialMediaIcon,
+  SocialMediaIcons,
+  Span,
+  SubTitle,
+  TextLoop,
+  Title,
+} from "./HeroStyle";
 
 const HeroSection = () => {
   return (
-    <HeroContainer>
+    <HeroContainer id="home">
       <HeroBg>
         <HeroBgAnimation />
       </HeroBg>

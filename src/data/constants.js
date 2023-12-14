@@ -1,13 +1,8 @@
 export const bio = {
   name: "Paulo Araújo",
-  roles: [
-    "Desenvolvedor Full Stack",
-    "Programador Front End",
-    "UI/UX Designer",
-    "Freelancer",
-  ],
+  roles: ["Programador Front End", "Desenvolvedor Full Stack", "Freelancer"],
   description:
-    "Sou um desenvolvedor Jr me especializando em construir (e ocasionalmente projetar) experiências digitais excepcionais. Atualmente, estou focado na construção de aplicativos web responsivos enquanto aprendo tecnologias back-end.",
+    "Sou um desenvolvedor me especializando em construir (e ocasionalmente projetar) experiências digitais excepcionais. Atualmente, estou focado na construção de aplicativos web responsivos enquanto aprendo tecnologias back-end.",
   resume:
     "https://drive.google.com/file/d/1VSUQcbpFpXYcPIBiMOrnUP_yysyFrsOc/view?usp=sharing",
   github: "https://github.com/pauloaraujo028",
@@ -63,17 +58,6 @@ export const skills = [
         alt: "Icone da tecnologia Bootstrap",
       },
       {
-        name: "Material UI",
-        image:
-          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-plain.svg",
-        alt: "Icone da tecnologia Material UI",
-      },
-      {
-        name: "Laravel",
-        image: "https://cdn.simpleicons.org/laravel/FF2D20",
-        alt: "Icone da tecnologia Laravel",
-      },
-      {
         name: "Tailwind CSS",
         image:
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
@@ -91,39 +75,20 @@ export const skills = [
         alt: "Icone da tecnologia PHP",
       },
       {
+        name: "Laravel",
+        image: "https://cdn.simpleicons.org/laravel/FF2D20",
+        alt: "Icone da tecnologia Laravel",
+      },
+      {
         name: "Node Js",
         image: "https://nodejs.org/static/images/logo.svg",
         alt: "Icone da tecnologia NodeJs",
-      },
-      {
-        name: "Java",
-        image:
-          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
-        alt: "Icone da tecnologia Java",
       },
       {
         name: "Python",
         image:
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
         alt: "Icone da tecnologia Python",
-      },
-      {
-        name: "MySQL",
-        image:
-          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg",
-        alt: "Icone da tecnologia MySQL",
-      },
-      {
-        name: "Postgresql",
-        image:
-          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
-        alt: "Icone da tecnologia PostgreSQL",
-      },
-      {
-        name: "SQLite",
-        image:
-          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg",
-        alt: "Icone da tecnologia SQLite",
       },
     ],
   },
@@ -184,6 +149,30 @@ export const skills = [
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bitbucket/bitbucket-original.svg",
         alt: "Icone da tecnologia Bitbucket",
       },
+      {
+        name: "Material UI",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-plain.svg",
+        alt: "Icone da tecnologia Material UI",
+      },
+      {
+        name: "MySQL",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg",
+        alt: "Icone da tecnologia MySQL",
+      },
+      {
+        name: "Postgresql",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+        alt: "Icone da tecnologia PostgreSQL",
+      },
+      {
+        name: "Docker",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+        alt: "Icone da tecnologia Docker",
+      },
     ],
   },
 ];
@@ -200,13 +189,14 @@ export const experiences = [
       "Laravel",
       "PHP",
       "Javascript",
+      "Vue",
       "HTML5",
       "CSS3",
       "Bootstrap",
       "MySQL",
       "Git",
       "Bitbucket",
-      "Metodologias: Scrun",
+      "Metodologia: Scrun",
     ],
   },
   {
@@ -230,7 +220,7 @@ export const experiences = [
       "PostgreSQL",
       "Git",
       "Bitbucket",
-      "Metodologias: Scrun",
+      "Metodologia: Scrun",
     ],
   },
   {
