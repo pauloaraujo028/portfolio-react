@@ -1,7 +1,6 @@
-import React from "react";
-import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { Snackbar } from "@mui/material";
+import React, { useRef } from "react";
 import {
   ContactButton,
   ContactForm,
@@ -48,13 +47,29 @@ const Contact = () => {
         </Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Enviar E-mail 🚀</ContactTitle>
-          <ContactInput placeholder="Seu E-mail" name="from_email" />
-          <ContactInput placeholder="Seu Nome" name="from_name" />
-          <ContactInput placeholder="Assunto" name="subject" />
+          <ContactInput
+            placeholder="Seu E-mail"
+            name="from_email"
+            type="email"
+            required
+          />
+          <ContactInput
+            placeholder="Seu Nome"
+            name="from_name"
+            type="text"
+            required
+          />
+          <ContactInput
+            placeholder="Assunto"
+            name="subject"
+            type="text"
+            required
+          />
           <ContactInputMessage
             placeholder="Menssagem"
             rows="4"
             name="message"
+            required
           />
           <ContactButton type="submit" value="Enviar" />
         </ContactForm>
