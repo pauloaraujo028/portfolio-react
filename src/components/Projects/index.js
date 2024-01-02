@@ -1,20 +1,20 @@
-import React from "react";
-import { useState } from "react";
-import {
-  Container,
-  Wrapper,
-  Title,
-  Desc,
-  CardContainer,
-  ToggleButtonGroup,
-  ToggleButton,
-  Divider,
-} from "./ProjectsStyle";
-import ProjectCard from "../Cards/ProjectCard";
+import React, { useState } from "react";
 import { projects } from "../../data/constants";
+import ProjectCard from "../Cards/ProjectCard";
+import {
+  CardContainer,
+  Container,
+  Desc,
+  Divider,
+  Title,
+  ToggleButton,
+  ToggleButtonGroup,
+  Wrapper,
+} from "./ProjectsStyle";
 
 const Projects = ({ openModal, setOpenModal }) => {
   const [toggle, setToggle] = useState("all");
+
   return (
     <Container id="projects">
       <Wrapper>
@@ -54,14 +54,14 @@ const Projects = ({ openModal, setOpenModal }) => {
               value="wordpress"
               onClick={() => setToggle("wordpress")}
             >
-              WORDPRESS
+              MOBILE
             </ToggleButton>
           ) : (
             <ToggleButton
               value="wordpress"
               onClick={() => setToggle("wordpress")}
             >
-              WORDPRESS
+              MOBILE
             </ToggleButton>
           )}
           <Divider />
