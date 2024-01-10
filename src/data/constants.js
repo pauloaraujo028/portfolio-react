@@ -4,7 +4,7 @@ export const bio = {
   description:
     "Sou um desenvolvedor me especializando em construir (e ocasionalmente projetar) experiências digitais excepcionais. Atualmente, estou focado na construção de aplicativos web responsivos enquanto aprendo tecnologias back-end.",
   resume:
-    "https://drive.google.com/file/d/1VSUQcbpFpXYcPIBiMOrnUP_yysyFrsOc/view?usp=sharing",
+    "https://drive.google.com/file/d/1gdyec8ilBnb4DkAMYyJDD1n251tWbHmr/view?usp=drive_link",
   github: "https://github.com/pauloaraujo028",
   linkedin: "https://www.linkedin.com/in/pauloaraujo028/",
   email: "mailto:pauloaraujo.phz@gmail.com",
